@@ -29,7 +29,7 @@ object Natives {
     // Get full version
     // The kernel returns null when the GET_FULL_VERSION supercall is unavailable.
     external fun getFullVersion(): String?
-    const val MINIMAL_SUPPORTED_KERNEL_FULL = "v4.0.0"
+    const val MINIMAL_SUPPORTED_KERNEL_FULL = "v2.0.0"
 
     // 12040: Support disable sucompat mode
     const val KERNEL_SU_DOMAIN = "u:r:ksu:s0"
